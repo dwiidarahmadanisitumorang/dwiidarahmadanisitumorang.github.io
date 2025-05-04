@@ -5,5 +5,4 @@ title: "HTML Link dan Lists"
 
 penjelasan tentang link dan lists pada HTML.
 
-![HTML link dan lists](/assets/image/IMG_20240917_201350.jpg)
-
+![HTML link dan lists](/assets/image/Screenshot 2025-05-04 221227.png)
