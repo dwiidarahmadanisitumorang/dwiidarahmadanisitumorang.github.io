@@ -1,9 +1,17 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-    <title>{{ page.title }} </title>
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syles.css">
+    <!--javascript-->
+    <script src="{{ site.baseur }}/assets/css/styles.css"></script>
+    
+
+    <!-- plugins -->
+     {% feed_meta %}
+     {% seo %}
 </head>
 <body>
     {% include navigation.html %}
