@@ -1,17 +1,16 @@
-
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="/assets/css/syles.css">
-    <!--javascript-->
-    <script src="/assets/css/styles.css"></script>
-    
-
-    <!-- plugins -->
-     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
-     <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <!--javascript-->
+         <script src="/assets/js/scripts.js"> </script>
+        
+        
+        <!--plugins-->
+        <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Home</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="Home" />
@@ -25,11 +24,11 @@
 {"@context":"https://schema.org","@type":"WebSite","headline":"Home","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
-</head>
-<body>
-    <nav>
+    </head>
+    <body>
+        <nav>
     
-    <a href="/"  class="current">
+    <a href="/"  class="current" >
         Home
     </a>
     
@@ -42,72 +41,147 @@
     </a>
     
 </nav>
-    <!DOCTYPE html>
+
+        <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <title>Profil Diri - Dwi Ida Rahmadani Situmorang</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-      color: #000;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdf6f9;
+      color: #444;
       margin: 0;
-      padding: 40px;
-      line-height: 1.6;
+      padding: 0;
     }
 
-    h1, h2 {
+    header {
+      background: linear-gradient(to right, #a0c4ff, #c8d9f1);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      border-bottom: 4px solid #c8d9f1;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #e3effa;
+      padding: 12px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      color: #4a90e2;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 8px 16px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover,
+    nav a.current {
+      background-color: #d0e4fc;
+      color: #1d66bb;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(255, 192, 203, 0.15);
+    }
+
+    h2 {
+      color: #1d66bb;
+      border-bottom: 2px solid #e3effa;
+      padding-bottom: 5px;
       margin-bottom: 20px;
-      text-align: left;
     }
 
     .section {
       margin-bottom: 30px;
     }
 
-    p {
+    p, ul {
       font-size: 16px;
-      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
     }
 
     button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      font-size: 16px;
-      background: none;
-      color: #000;
-      border: 1px solid #000;
-      border-radius: 4px;
+      background-color: #a0c4ff;
+      color: #fff;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 20px;
       cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+      box-shadow: 0 5px 10px rgba(160, 196, 255, 0.3);
     }
 
     button:hover {
-      background-color: #f2f2f2;
+      background-color: #4a90e2;
     }
 
     footer {
+      text-align: center;
       font-size: 14px;
-      color: #666;
-      margin-top: 50px;
+      color: #999;
+      margin: 50px 0 20px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Nama: Dwi Ida Rahmadani Situmorang</h1>
+  <header>
+    <h1>Dwi Ida Rahmadani Situmorang</h1>
+  </header>
 
-  <h2>Deskripsi Diri</h2>
-  <div class="section">
-    <p>Saya berasal dari Subulussalam, anak kedua dari empat bersaudara, dan tamatan dari SMKN 1 Penanggalan.</p>
-    <p>Sekarang saya berkuliah di Politeknik Negeri Lhokseumawe sebagai mahasiswa jurusan Teknologi Informasi dan Komputer.</p>
-  </div>
+  <nav>
+    <a href="#" class="current">Beranda</a>
+    <a href="#">Teman</a>
+    <a href="#">Cerita</a>
+  </nav>
 
-  <button onclick="myFunction()">Jangan di klik ya!</button>
+  <div class="container">
+    <h2>Bio Singkat</h2>
+    <div class="section">
+      <p>Halo! Nama saya <strong>Dwi Ida Rahmadani Situmorang</strong>, berasal dari kota Subulussalam. Saya adalah anak kedua dari empat bersaudara dan lulusan dari <strong>SMKN 1 Penanggalan</strong>.</p>
+      <p>Saat ini saya sedang menempuh pendidikan di <strong>Politeknik Negeri Lhokseumawe</strong>, jurusan Teknologi Informasi dan Komputer.</p>
+    </div>
 
-  <h2>Moto Hidup</h2>
-  <div class="section">
-    <p>Keberhasilan bukanlah milik mereka yang pintar, melainkan milik mereka yang senantiasa berusaha.</p>
+    <h2>Hobi</h2>
+    <div class="section">
+      <ul>
+        <li>Membaca novel romantis</li>
+        <li>Menonton drama Korea favorit</li>
+        <li>Membuat desain estetik</li>
+        <li>Menulis puisi atau cerita pendek</li>
+      </ul>
+    </div>
+
+    <h2>Moto Hidup</h2>
+    <div class="section">
+      <p><em>"Keberhasilan bukan milik mereka yang pintar, melainkan milik mereka yang senantiasa berusaha."</em></p>
+    </div>
+
+    <button onclick="myFunction()">Jangan diklik ya 😄</button>
   </div>
 
   <footer>
@@ -123,5 +197,5 @@
 </body>
 </html>
 
-</body>
+    </body>
 </html>
