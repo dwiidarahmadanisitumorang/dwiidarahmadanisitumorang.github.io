@@ -1,3 +1,10 @@
+title: Dwi Ida Rahmadani Situmorang
+email: dwidwiidasitumorang@gmail.com
+description: > # this means to ignore newlines until "beseurl:"
+ A personal blog by Dwi Ida Rahmadani Situmorang, a student at Politeknik Negeri Lhokseumawe.
+ This blog is built using jekyll and hosted on Github Pages.
+ The Content is primarly In Indonesia, but some posts may be in English
+
 url: "https://dwiidarahmadanisitumorang.github.io/"
 
 plugins:
